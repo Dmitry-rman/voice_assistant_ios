@@ -1,0 +1,27 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+# Uncomment this line to define a global platform for your project
+platform :ios, '13.0'
+# Uncomment this line if you're using Swift
+use_frameworks!
+
+inhibit_all_warnings!
+
+target 'voicebox' do
+pod 'YandexSpeechKit', '~> 3.12.2'
+pod 'CocoaLumberjack/Swift'
+pod 'R.swift'
+pod 'MBProgressHUD'
+pod 'Alamofire', '~> 5.0'
+pod 'CodableAlamofire'
+pod 'AlamofireNetworkActivityLogger'
+pod 'AlamofireRSSParser'
+pod 'Bond'
+end
+
+
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        puts target.name
+    end
+end

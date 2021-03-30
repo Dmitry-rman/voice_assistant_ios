@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Player View Controller-->
+        <scene sceneID="yu9-l8-7GQ">
+            <objects>
+                <viewController storyboardIdentifier="VBPlayerViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="pQW-pv-vc6" customClass="VBPlayerViewController" customModule="voicebox" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0vg-yB-iXW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Pk-M2-lA3">
+                                <rect key="frame" x="52" y="0.0" width="303" height="44"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="music.note.list" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="5mc-aW-X1z">
+                                <rect key="frame" x="0.0" y="0.5" width="44" height="43"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="5mc-aW-X1z" secondAttribute="height" multiplier="1:1" id="QHB-ep-Yh2"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UGj-ws-ZG9">
+                                <rect key="frame" x="363" y="4.5" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="UGj-ws-ZG9" secondAttribute="height" multiplier="1:1" id="bf8-T2-kKO"/>
+                                    <constraint firstAttribute="width" constant="35" id="y4e-CI-dUc"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="play.circle.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="playPauseTap:" destination="pQW-pv-vc6" eventType="touchUpInside" id="OPc-68-ndv"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="nso-lr-9I8"/>
+                        <color key="backgroundColor" name="MainColor"/>
+                        <constraints>
+                            <constraint firstItem="UGj-ws-ZG9" firstAttribute="leading" secondItem="5Pk-M2-lA3" secondAttribute="trailing" constant="8" id="Aa2-1l-sPK"/>
+                            <constraint firstItem="5mc-aW-X1z" firstAttribute="leading" secondItem="nso-lr-9I8" secondAttribute="leading" id="DkZ-sY-t1e"/>
+                            <constraint firstItem="5Pk-M2-lA3" firstAttribute="top" secondItem="0vg-yB-iXW" secondAttribute="top" id="HUK-2S-Sc0"/>
+                            <constraint firstItem="5Pk-M2-lA3" firstAttribute="leading" secondItem="5mc-aW-X1z" secondAttribute="trailing" constant="8" id="RuE-iR-tvw"/>
+                            <constraint firstItem="5mc-aW-X1z" firstAttribute="bottom" secondItem="nso-lr-9I8" secondAttribute="bottom" id="YqN-fH-kto"/>
+                            <constraint firstAttribute="trailing" secondItem="UGj-ws-ZG9" secondAttribute="trailing" constant="16" id="Zo8-DJ-x6E"/>
+                            <constraint firstItem="5mc-aW-X1z" firstAttribute="top" secondItem="0vg-yB-iXW" secondAttribute="top" id="Zxd-mx-ovT"/>
+                            <constraint firstItem="nso-lr-9I8" firstAttribute="bottom" secondItem="5Pk-M2-lA3" secondAttribute="bottom" id="aCB-t5-HKO"/>
+                            <constraint firstItem="UGj-ws-ZG9" firstAttribute="centerY" secondItem="0vg-yB-iXW" secondAttribute="centerY" id="qrx-mZ-0UK"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="414" height="44"/>
+                    <connections>
+                        <outlet property="artImage" destination="5mc-aW-X1z" id="S08-yR-kS2"/>
+                        <outlet property="playButton" destination="UGj-ws-ZG9" id="ovQ-82-Bka"/>
+                        <outlet property="titleLabel" destination="5Pk-M2-lA3" id="S1T-yX-NMV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ncg-p1-eGC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1899" y="1220"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="music.note.list" catalog="system" width="128" height="115"/>
+        <image name="play.circle.fill" catalog="system" width="128" height="121"/>
+        <namedColor name="MainColor">
+            <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

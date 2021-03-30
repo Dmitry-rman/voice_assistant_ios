@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A3C447B25F099EC0077FA8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A694DAF25E7AC9F00EBAD45 /* AppDelegate.swift */; };
+		0A3C447C25F099EC0077FA8D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A694DB125E7AC9F00EBAD45 /* SceneDelegate.swift */; };
+		0A3C448125F099EC0077FA8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A694DBA25E7ACA000EBAD45 /* LaunchScreen.storyboard */; };
+		0A3C448225F099EC0077FA8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A694DB825E7ACA000EBAD45 /* Assets.xcassets */; };
+		0A3C448325F099EC0077FA8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AD7AD6925E7C54800A7247D /* Main.storyboard */; };
+		0A3C449025F09A460077FA8D /* SpeechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3C448F25F09A460077FA8D /* SpeechViewController.swift */; };
+		0A694DB025E7AC9F00EBAD45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A694DAF25E7AC9F00EBAD45 /* AppDelegate.swift */; };
+		0A694DB225E7AC9F00EBAD45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A694DB125E7AC9F00EBAD45 /* SceneDelegate.swift */; };
+		0A694DB925E7ACA000EBAD45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A694DB825E7ACA000EBAD45 /* Assets.xcassets */; };
+		0A694DBC25E7ACA000EBAD45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A694DBA25E7ACA000EBAD45 /* LaunchScreen.storyboard */; };
+		0AD7AD4525E7BF9B00A7247D /* SpeechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD7AD4425E7BF9B00A7247D /* SpeechViewController.swift */; };
+		0AD7AD6A25E7C54800A7247D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AD7AD6925E7C54800A7247D /* Main.storyboard */; };
+		21129105AE87934274D62BC3 /* Pods_speechkit_apple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4FA175638BEE381264067A6 /* Pods_speechkit_apple.framework */; };
+		BB9612AC456B2D94AB476666 /* Pods_speechkit_yandex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85D79CD9E5AF0BE1126271D8 /* Pods_speechkit_yandex.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0A3C448525F099EC0077FA8D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0A3C448A25F099EC0077FA8D /* speechkit_yandex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = speechkit_yandex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A3C448F25F09A460077FA8D /* SpeechViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechViewController.swift; sourceTree = "<group>"; };
+		0A3C449E25F09FA00077FA8D /* speechkit_yandex-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "speechkit_yandex-Bridging-Header.h"; sourceTree = "<group>"; };
+		0A694DAC25E7AC9F00EBAD45 /* speechkit_apple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = speechkit_apple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A694DAF25E7AC9F00EBAD45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A694DB125E7AC9F00EBAD45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0A694DB825E7ACA000EBAD45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A694DBB25E7ACA000EBAD45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A694DBD25E7ACA000EBAD45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AD7AD4425E7BF9B00A7247D /* SpeechViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechViewController.swift; sourceTree = "<group>"; };
+		0AD7AD6925E7C54800A7247D /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0AD7AE1825E7D1AE00A7247D /* Speech.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Speech.framework; path = System/Library/Frameworks/Speech.framework; sourceTree = SDKROOT; };
+		64FD758003B7D36CF790970E /* Pods-speechkit_yandex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-speechkit_yandex.debug.xcconfig"; path = "Target Support Files/Pods-speechkit_yandex/Pods-speechkit_yandex.debug.xcconfig"; sourceTree = "<group>"; };
+		85D79CD9E5AF0BE1126271D8 /* Pods_speechkit_yandex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_speechkit_yandex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0D1D8A4E6638D4478D1EA3F /* Pods-speechkit_apple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-speechkit_apple.debug.xcconfig"; path = "Target Support Files/Pods-speechkit_apple/Pods-speechkit_apple.debug.xcconfig"; sourceTree = "<group>"; };
+		B4FA175638BEE381264067A6 /* Pods_speechkit_apple.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_speechkit_apple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8D2B53D7B1BF0E94A16D9DB /* Pods-speechkit_apple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-speechkit_apple.release.xcconfig"; path = "Target Support Files/Pods-speechkit_apple/Pods-speechkit_apple.release.xcconfig"; sourceTree = "<group>"; };
+		EFD8FD0B6A1AD61B2C7EF26C /* Pods-speechkit_yandex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-speechkit_yandex.release.xcconfig"; path = "Target Support Files/Pods-speechkit_yandex/Pods-speechkit_yandex.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A3C447D25F099EC0077FA8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9612AC456B2D94AB476666 /* Pods_speechkit_yandex.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A694DA925E7AC9F00EBAD45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21129105AE87934274D62BC3 /* Pods_speechkit_apple.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A3C448E25F09A460077FA8D /* speechkit_yandex */ = {
+			isa = PBXGroup;
+			children = (
+				0A3C448F25F09A460077FA8D /* SpeechViewController.swift */,
+				0A3C449E25F09FA00077FA8D /* speechkit_yandex-Bridging-Header.h */,
+			);
+			path = speechkit_yandex;
+			sourceTree = "<group>";
+		};
+		0A694DA325E7AC9F00EBAD45 = {
+			isa = PBXGroup;
+			children = (
+				0A694DAE25E7AC9F00EBAD45 /* speechkit_demo_ios */,
+				0AD7ACA225E7B03200A7247D /* spechkit_apple */,
+				0A3C448E25F09A460077FA8D /* speechkit_yandex */,
+				0A694DAD25E7AC9F00EBAD45 /* Products */,
+				0AD7AD2525E7B3CF00A7247D /* Frameworks */,
+				FC167B7017DF34DBC499047C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		0A694DAD25E7AC9F00EBAD45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A694DAC25E7AC9F00EBAD45 /* speechkit_apple.app */,
+				0A3C448A25F099EC0077FA8D /* speechkit_yandex.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A694DAE25E7AC9F00EBAD45 /* speechkit_demo_ios */ = {
+			isa = PBXGroup;
+			children = (
+				0AD7AC9B25E7AFE000A7247D /* Resources */,
+				0AD7AC9A25E7AFD800A7247D /* Support */,
+				0AD7AC9925E7AFCB00A7247D /* UI */,
+			);
+			path = speechkit_demo_ios;
+			sourceTree = "<group>";
+		};
+		0AD7AC9925E7AFCB00A7247D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				0AD7AD6925E7C54800A7247D /* Main.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		0AD7AC9A25E7AFD800A7247D /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				0A694DAF25E7AC9F00EBAD45 /* AppDelegate.swift */,
+				0A694DB125E7AC9F00EBAD45 /* SceneDelegate.swift */,
+				0A694DBD25E7ACA000EBAD45 /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		0AD7AC9B25E7AFE000A7247D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0A694DB825E7ACA000EBAD45 /* Assets.xcassets */,
+				0A694DBA25E7ACA000EBAD45 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0AD7ACA225E7B03200A7247D /* spechkit_apple */ = {
+			isa = PBXGroup;
+			children = (
+				0AD7AD4425E7BF9B00A7247D /* SpeechViewController.swift */,
+			);
+			path = spechkit_apple;
+			sourceTree = "<group>";
+		};
+		0AD7AD2525E7B3CF00A7247D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AD7AE1825E7D1AE00A7247D /* Speech.framework */,
+				85D79CD9E5AF0BE1126271D8 /* Pods_speechkit_yandex.framework */,
+				B4FA175638BEE381264067A6 /* Pods_speechkit_apple.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC167B7017DF34DBC499047C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0D1D8A4E6638D4478D1EA3F /* Pods-speechkit_apple.debug.xcconfig */,
+				C8D2B53D7B1BF0E94A16D9DB /* Pods-speechkit_apple.release.xcconfig */,
+				64FD758003B7D36CF790970E /* Pods-speechkit_yandex.debug.xcconfig */,
+				EFD8FD0B6A1AD61B2C7EF26C /* Pods-speechkit_yandex.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A3C447725F099EC0077FA8D /* speechkit_yandex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A3C448725F099EC0077FA8D /* Build configuration list for PBXNativeTarget "speechkit_yandex" */;
+			buildPhases = (
+				0A3C447825F099EC0077FA8D /* [CP] Check Pods Manifest.lock */,
+				0A3C447925F099EC0077FA8D /* Sources */,
+				0A3C447D25F099EC0077FA8D /* Frameworks */,
+				0A3C448025F099EC0077FA8D /* Resources */,
+				0A3C448525F099EC0077FA8D /* Embed Frameworks */,
+				D67EB76F4158F703799BE9C9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = speechkit_yandex;
+			productName = speechkit_demo_ios;
+			productReference = 0A3C448A25F099EC0077FA8D /* speechkit_yandex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A694DAB25E7AC9F00EBAD45 /* speechkit_apple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A694DD625E7ACA100EBAD45 /* Build configuration list for PBXNativeTarget "speechkit_apple" */;
+			buildPhases = (
+				BAF555F25F64D9465B7B2638 /* [CP] Check Pods Manifest.lock */,
+				0A694DA825E7AC9F00EBAD45 /* Sources */,
+				0A694DA925E7AC9F00EBAD45 /* Frameworks */,
+				0A694DAA25E7AC9F00EBAD45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = speechkit_apple;
+			productName = speechkit_demo_ios;
+			productReference = 0A694DAC25E7AC9F00EBAD45 /* speechkit_apple.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A694DA425E7AC9F00EBAD45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					0A3C447725F099EC0077FA8D = {
+						LastSwiftMigration = 1240;
+					};
+					0A694DAB25E7AC9F00EBAD45 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 0A694DA725E7AC9F00EBAD45 /* Build configuration list for PBXProject "speechkit_demo_ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A694DA325E7AC9F00EBAD45;
+			productRefGroup = 0A694DAD25E7AC9F00EBAD45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A694DAB25E7AC9F00EBAD45 /* speechkit_apple */,
+				0A3C447725F099EC0077FA8D /* speechkit_yandex */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A3C448025F099EC0077FA8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A3C448125F099EC0077FA8D /* LaunchScreen.storyboard in Resources */,
+				0A3C448225F099EC0077FA8D /* Assets.xcassets in Resources */,
+				0A3C448325F099EC0077FA8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A694DAA25E7AC9F00EBAD45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A694DBC25E7ACA000EBAD45 /* LaunchScreen.storyboard in Resources */,
+				0A694DB925E7ACA000EBAD45 /* Assets.xcassets in Resources */,
+				0AD7AD6A25E7C54800A7247D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A3C447825F099EC0077FA8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-speechkit_yandex-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAF555F25F64D9465B7B2638 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-speechkit_apple-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D67EB76F4158F703799BE9C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-speechkit_yandex/Pods-speechkit_yandex-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-speechkit_yandex/Pods-speechkit_yandex-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-speechkit_yandex/Pods-speechkit_yandex-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A3C447925F099EC0077FA8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A3C449025F09A460077FA8D /* SpeechViewController.swift in Sources */,
+				0A3C447B25F099EC0077FA8D /* AppDelegate.swift in Sources */,
+				0A3C447C25F099EC0077FA8D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A694DA825E7AC9F00EBAD45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD7AD4525E7BF9B00A7247D /* SpeechViewController.swift in Sources */,
+				0A694DB025E7AC9F00EBAD45 /* AppDelegate.swift in Sources */,
+				0A694DB225E7AC9F00EBAD45 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0A694DBA25E7ACA000EBAD45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A694DBB25E7ACA000EBAD45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A3C448825F099EC0077FA8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64FD758003B7D36CF790970E /* Pods-speechkit_yandex.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5K42YC37US;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/speechkit_abc",
+					"$(PROJECT_DIR)/speechkit_abc/ABCSpeechKitSDK.framework/Frameworks",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.speechkit-demo-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "speechkit_yandex/speechkit_yandex-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A3C448925F099EC0077FA8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFD8FD0B6A1AD61B2C7EF26C /* Pods-speechkit_yandex.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5K42YC37US;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/speechkit_abc",
+					"$(PROJECT_DIR)/speechkit_abc/ABCSpeechKitSDK.framework/Frameworks",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.speechkit-demo-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "speechkit_yandex/speechkit_yandex-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A694DD425E7ACA100EBAD45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = speechkit_demo_ios/Support/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A694DD525E7ACA100EBAD45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = speechkit_demo_ios/Support/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A694DD725E7ACA100EBAD45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0D1D8A4E6638D4478D1EA3F /* Pods-speechkit_apple.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5K42YC37US;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.speechkit-demo-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A694DD825E7ACA100EBAD45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8D2B53D7B1BF0E94A16D9DB /* Pods-speechkit_apple.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5K42YC37US;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.speechkit-demo-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A3C448725F099EC0077FA8D /* Build configuration list for PBXNativeTarget "speechkit_yandex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A3C448825F099EC0077FA8D /* Debug */,
+				0A3C448925F099EC0077FA8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A694DA725E7AC9F00EBAD45 /* Build configuration list for PBXProject "speechkit_demo_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A694DD425E7ACA100EBAD45 /* Debug */,
+				0A694DD525E7ACA100EBAD45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A694DD625E7ACA100EBAD45 /* Build configuration list for PBXNativeTarget "speechkit_apple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A694DD725E7ACA100EBAD45 /* Debug */,
+				0A694DD825E7ACA100EBAD45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A694DA425E7AC9F00EBAD45 /* Project object */;
+}

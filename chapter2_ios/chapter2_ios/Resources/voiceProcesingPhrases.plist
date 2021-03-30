@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>start</key>
+	<dict>
+		<key>first</key>
+		<string>Привет, я буду твоим голосовым помощником. Как тебя зовут?</string>
+		<key>second</key>
+		<string>Привет, %@, это снова я, твой голосовой помощник. Расскажи как у тебя дела?</string>
+	</dict>
+	<key>message</key>
+	<dict>
+		<key>привет,здравств</key>
+		<string>Привет ещё раз! Расскажи как ты себя чувствуешь сегодня?</string>
+		<key>пока,спасибо,до свидания</key>
+		<string>Пожалуйста, возвращайся! Я всегда рада поболтать с тобой ;)</string>
+		<key>пылесос</key>
+		<string>Роботы-пылесосы скоро станут доступны для управления</string>
+		<key>отлично,хорошо</key>
+		<string>Мне тоже это нравится!</string>
+		<key>как ты</key>
+		<string>Я себя хорошо чувствую!</string>
+	</dict>
+</dict>
+</plist>
